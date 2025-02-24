@@ -1,6 +1,4 @@
 /*
-Laura Robayo (U63472990)
-
 The program manages and tracks high school students who have expressed
 interest in volunteering as assistants in the summer camps for K-8
 students. Each volunteer is stored with last name, first name, email, and
@@ -29,13 +27,6 @@ void print_list(struct volunteer *list);
 void clear_list(struct volunteer *list);
 int read_line(char str[], int n);
 
-/**********************************************************
- * main: Prompts the user to enter an operation code,     *
- *       then calls a function to perform the requested   *
- *       action. Repeats until the user enters the        *
- *       command 'q'. Prints an error message if the user *
- *       enters an illegal code.                          *
- **********************************************************/
 int main(void) {
   char code;
 
